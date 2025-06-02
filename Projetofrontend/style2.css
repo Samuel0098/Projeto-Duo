@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white
+}
+
+header {
+    background: linear-gradient(to bottom, gold, rgb(180, 153, 0));
+    padding: 2rem;
+    text-align: center;
+}
+
+.logo {
+    height: 40px;
+}
+
+h1 {
+    color: #192e26;
+}
+
+    /*Aqui é onde colocamos o script CSS para os cards*/
+.card {
+    background: linear-gradient(to bottom, darkgray, white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    width: 300px;
+    height: 420px;
+}
+
+    /*Script CSS para os subtitulos dos cards*/
+.card h2 {
+    font-weight: 1000;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.preco {
+    position: relative; left: 55px;
+}
+
+     /*Script em CSS da área do rodapé*/
+footer {
+    background-color: rgb(45, 45, 45);
+    padding: 1rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+    /*Texto do rodapé*/
+footer p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    font-style: italic;
+}
+
+    /*Onde estamos guardando as imagens*/
+.galeria {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+.galeria img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: 5px;
+}
+
+    /*Scripts em CSS dos botões para alugar os carros */
+.botaoalugar {
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    width: 100px;
+    position: relative; top: 50px;
+    position: relative; right: 55.75px;
+    border-color: green;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 16px 32px;
+}
+
+.botaoalugar:active {
+    transform: scale(0.96);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.textobotao {
+    position: relative; right: 6px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #192e26;
+    padding: 1px 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 4px 2px;
+    background-color: #1d503c;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+.nav-links li a:hover {
+    color: aliceblue;
+}
+
+.navlogo {
+    color: #49a27f;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
