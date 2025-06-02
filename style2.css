@@ -2,10 +2,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background: white
 }
 
 header {
-    background-color: gold;
+    background: linear-gradient(to bottom, gold, rgb(180, 153, 0));
     padding: 2rem;
     text-align: center;
 }
@@ -14,17 +15,12 @@ header {
     height: 40px;
 }
 
-.nav {
-    background-color: #192e26;
-    padding: 1.5rem;
-}
-
 h1 {
     color: #192e26;
 }
 
 .card {
-    background-color: white;
+    background: linear-gradient(to bottom, rgb(62, 62, 62), darkgray);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -95,4 +91,39 @@ footer p {
 
 .textobotao {
     position: relative; right: 6px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #192e26;
+    padding: 1px 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 4px 2px;
+    background-color: #1d503c;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+.nav-links li a:hover {
+    color: aliceblue;
+}
+
+.navlogo {
+    color: #49a27f;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
 }
